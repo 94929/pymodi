@@ -1,4 +1,4 @@
-![Alt Text](https://github.com/jha929/pymodi/tree/qa/1.1.0/PyMODI_Introduction_Final-2_1.gif)
+![Alt Text](https://github.com/jha929/pymodi/tree/qa/1.1.0/PyMODI_Introduction_Final-2_1.gif?raw=true)
 
 --------
 
