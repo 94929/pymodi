@@ -5,6 +5,6 @@ from flake8.main import git
 
 if __name__ == '__main__':
     result = git.hook(strict=True, lazy=False, )
-    if result != 0:
+    if result:
         print("\nPlease revise above corrections before you commit")
     sys.exit(result)
