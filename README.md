@@ -1,6 +1,4 @@
-<p align="center">
-	<img src="https://github.com/LUXROBO/pymodi/blob/master/docs/_static/img/logo.png?raw=true" width="500" height="150">
-</p>
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 --------
 
