@@ -1,4 +1,5 @@
 
+files: ^modi/^tests
 default_language_version:
     python: python3.6
 
@@ -7,7 +8,6 @@ repos:
     rev: stable
     hooks:
       - id: black
-        files: ^modi/
   - repo: https://gitlab.com/pycqa/flake8
     rev: 3.7.9
     hooks:
@@ -19,4 +19,4 @@ repos:
          name: unit test
          entry: python -m unittest 
          language: system 
-         files: tests/
+         files: ^tests
