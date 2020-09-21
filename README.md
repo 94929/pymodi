@@ -1,4 +1,4 @@
-![Alt Text](PyMODI_Introduction_Final-2_1.gif)
+![Alt Text](pymodi-intro.gif)(https://www.youtube.com/watch?v=7ciGw8V-8sM)
 
 --------
 
