@@ -1,4 +1,4 @@
-[![pymodi](pymodi-intro.gif)](https://www.youtube.com/watch?v=7ciGw8V-8sM)
+[![pymodi](https://github.com/jha929/pymodi/blob/qa/1.1.0/docs/_static/video/pymodi-intro.gif)](https://www.youtube.com/watch?v=7ciGw8V-8sM)
 
 --------
 
