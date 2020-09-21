@@ -1,5 +1,4 @@
 
-files: ^modi/^tests
 default_language_version:
     python: python3.6
 
@@ -12,11 +11,3 @@ repos:
     rev: 3.7.9
     hooks:
       - id: flake8
-        files: ^modi/
-  - repo: local 
-    hooks: 
-       - id: unit test 
-         name: unit test
-         entry: python -m unittest 
-         language: system 
-         files: ^tests
