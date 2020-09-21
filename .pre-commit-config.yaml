@@ -15,7 +15,6 @@ repos:
   - repo: local 
     hooks: 
        - id: unit test 
-         name: unit test 
+         name: unit test
          entry: python -m unittest discover 
          language: system 
-
