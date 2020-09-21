@@ -1,4 +1,4 @@
-files: 'modi/*'
+files: ^modi/
 
 default_language_version:
     python: python3.6
