@@ -1,0 +1,21 @@
+files: 'modi/'
+
+default_language_version:
+    python: python3.6
+
+repos:
+  - repo: https://github.com/ambv/black
+    rev: stable
+    hooks:
+      - id: black
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.7.9
+    hooks:
+      - id: flake8
+  - repo: local 
+    hooks: 
+       - id: unit test 
+         name: unit test 
+         entry: python -m unittest discover 
+         language: system 
+
