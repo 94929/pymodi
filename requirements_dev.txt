@@ -1,11 +1,4 @@
 pip
-bumpversion
-wheel
-watchdog
 flake8
 tox
 coverage
-Sphinx
-twine
-sphinx_rtd_theme
-m2r
