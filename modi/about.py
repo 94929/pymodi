@@ -1,5 +1,5 @@
 __title__ = 'pymodi'
-__version__ = "1.0.0"
+__version__ = "2.0.0"
 __author__ = 'LUXROBO'
 __email__ = 'tech@luxrobo.com'
 __description__ = 'Easy😆 and fast💨 MODI Python API package.'
