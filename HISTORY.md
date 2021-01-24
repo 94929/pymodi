@@ -98,3 +98,16 @@ History
 -   Enhance topology manager to work with battery module
 -   Add functionality to reset existing user code on the modules
 -   Bug fixes
+
+1.1.6 (2020-09-21)
+--
+1) Firmware Updater
+2) Change module interface
+3) Implement experimental BLE connection
+4) Include firmware in the repository
+5) Enable MODI Play support
+6) Sort modules by euclidean distance, to the network module
+7) Remove nb_modules parameter of MODI object
+8) Print topology map when the battery module is attached
+9) Add timeout while initializing MODI object
+10) Reset user code

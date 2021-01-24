@@ -1,6 +1,4 @@
-<p align="center">
-	<img src="https://github.com/LUXROBO/pymodi/blob/master/docs/_static/img/logo.png?raw=true" width="500" height="150">
-</p>
+[![pymodi](https://github.com/jha929/pymodi/blob/qa/1.1.0/docs/_static/video/pymodi-intro.gif)](https://www.youtube.com/watch?v=7ciGw8V-8sM)
 
 ww
 --------
@@ -18,7 +16,15 @@ Description
 ===========
 Python API for controlling MODI.
 -   Free software: MIT license
--   Documentation: <https://pymodi.readthedocs.io>.
+-   API Documentation: <https://pymodi.readthedocs.io>.
+
+Promotion Video
+---------------
+<div align="center">
+    <a href="https://www.youtube.com/watch?v=7ciGw8V-8sM">
+        <img src="https://img.youtube.com/vi/7ciGw8V-8sM/0.jpg">
+    </a>
+</div>
 
 Features
 --------
