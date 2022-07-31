@@ -214,57 +214,57 @@
                             <div class="module network" data-toggle="modal" data-target="#networkmodulee">
                                 <img src="assets/img/modules/network.png" alt="network" width="100" height="100" />
                             </div>
-    
+
                             <!-- Button Module -->
                             <div class="module button" data-toggle="modal" data-target="#buttonmodulee">
                                 <img src="assets/img/modules/button.png" alt="button" width="100" height="100" />
                             </div>
-    
+
                             <!-- Dial Module -->
                             <div class="module dial" data-toggle="modal" data-target="#dialmodule">
                                 <img src="assets/img/modules/dial.png" alt="dial" width="100" height="100" />
                             </div>
-    
+
                             <!-- Env Module -->
                             <div class="module env" data-toggle="modal" data-target="#envmodulee">
                                 <img src="assets/img/modules/env.png" alt="env" width="100" height="100" />
                             </div>
-    
+
                             <!-- Gyro Module -->
                             <div class="module gyro" data-toggle="modal" data-target="#gyromodulee">
                                 <img src="assets/img/modules/gyro.png" alt="gyro" width="100" height="100">
                             </div>
-    
+
                             <!-- Ir Module -->
                             <div class="module ir" data-toggle="modal" data-target="#irmodulee">
                                 <img src="assets/img/modules/ir.png" alt="ir" width="100" height="100">
                             </div>
-    
+
                             <!-- Mic Module -->
                             <div class="module mic" data-toggle="modal" data-target="#micmodulee">
                                 <img src="assets/img/modules/mic.png" alt="mic" width="100" height="100">
                             </div>
-    
+
                             <!-- Ultrasonic Module-->
                             <div class="module ultrasonic" data-toggle="modal" data-target="#ultrasonicmodulee">
                                 <img src="assets/img/modules/ultrasonic.png" alt="ultrasonic" width="100" height="100">
                             </div>
-    
+
                             <!-- Display Module-->
                             <div class="module display" data-toggle="modal" data-target="#displaymodulee">
                                 <img src="assets/img/modules/display.png" alt="display" width="100" height="100">
                             </div>
-    
+
                             <!-- LED Module-->
                             <div class="module led" data-toggle="modal" data-target="#ledmodulee">
                                 <img src="assets/img/modules/led.png" alt="led" width="100" height="100">
                             </div>
-    
+
                             <!-- Motor Module-->
                             <div class="module motor" data-toggle="modal" data-target="#motormodulee">
                                 <img src="assets/img/modules/motor.png" alt="motor" width="100" height="100">
                             </div>
-    
+
                             <!-- Speaker Module-->
                             <div class="module speaker" data-toggle="modal" data-target="#speakermodulee">
                                 <img src="assets/img/modules/speaker.png" alt="speaker" width="100" height="100">
@@ -281,27 +281,27 @@
                             <div class="module network2" data-toggle="modal" data-target="#networkmodule2">
                                 <img src="assets/img/modules/network2.png" alt="network" width="80" height="80" />
                             </div>
-        
+
                             <!-- Button Module 2-->
                             <div class="module button" data-toggle="modal" data-target="#buttonmodule2">
                                 <img src="assets/img/modules/button2.png" alt="button" width="80" height="80" />
                             </div>
-        
+
                             <!-- Dial Module 2-->
                             <div class="module dial" data-toggle="modal" data-target="#dialmodule2">
                                 <img src="assets/img/modules/dial2.png" alt="dial" width="80" height="80" />
                             </div>
-            
+
                             <!-- Env Module 2-->
                             <div class="module env" data-toggle="modal" data-target="#envmodule2">
                                 <img src="assets/img/modules/env2.png" alt="env" width="80" height="80" />
                             </div>
-            
+
                             <!-- Gyro Module 2-->
                             <div class="module gyro" data-toggle="modal" data-target="#gyromodule2">
                                 <img src="assets/img/modules/gyro2.png" alt="gyro" width="80" height="80">
                             </div>
-                            
+
                             <!-- TOF Module 2-->
                             <div class="module tof" data-toggle="modal" data-target="#tofmodule2">
                                 <img src="assets/img/modules/tof.png" alt="speaker" width="80" height="80">
@@ -311,22 +311,22 @@
                             <div class="module ir" data-toggle="modal" data-target="#joystickmodule2">
                                 <img src="assets/img/modules/joystick2.png" alt="ir" width="80" height="80">
                             </div>
-            
+
                             <!-- Display Module 2-->
                             <div class="module ultrasonic" data-toggle="modal" data-target="#displaymodule2">
                                 <img src="assets/img/modules/display2.png" alt="display" width="80" height="80">
                             </div>
-            
+
                             <!-- LED Module 2-->
                             <div class="module display" data-toggle="modal" data-target="#ledmodule2">
                                 <img src="assets/img/modules/led2.png" alt="led" width="80" height="80">
                             </div>
-            
+
                             <!-- Motor Module 2-->
                             <div class="module led" data-toggle="modal" data-target="#motormodule2">
                                 <img src="assets/img/modules/motor2.png" alt="motor" width="80" height="80">
                             </div>
-            
+
                             <!-- Speaker Module 2-->
                             <div class="module motor" data-toggle="modal" data-target="#speakermodule2">
                                 <img src="assets/img/modules/speaker2.png" alt="speaker" width="80" height="80">
@@ -691,10 +691,10 @@
                                 <div class="col-lg-11" style="overflow:auto;width:auto; padding:.2em .6em; margin: auto;">
                                 <pre style ="white-space : pre-line;"><code class = "python" style= "font-size:15px;"> import modi
                                     import time
-									
+
                                     # To connect a bundle of the MODI modules, instantiate a MODI object
                                     bundle = modi.MODI()
-                                    
+
                                     # Stores the module use by the variable named 'network'
                                     network = bundle.networks[0]
 
@@ -706,36 +706,36 @@
                                     # Returns whether MODI Play button is pressed, True if pressed
                                     network_button_pressed = network.button_pressed
                                     print('network_button_pressed:', network_button_pressed)
-                                    
+
                                     # Returns MODI Play dial value in range 0~100
                                     network_dial = network.dial
                                     print('network_dial:', network_dial)
-                                    
+
                                     # 'up' , 'down' , 'left' , 'right', and None if not pressed
                                     network_joystick = network.joystick
                                     print('network_joystick:', network_joystick)
-                                    
+
                                     # Returns MODI Play left slider value in range 0~100
                                     network_left_slider = network.left_slider
                                     print('network_left_slider:', network_left_slider)
-                                    
+
                                     # Returns MODI Play right slider value
                                     network_right_slider = network.right_slider
                                     print('network_right_slider:', network_right_slider)
-                                    
+
                                     # Returns True if MODI Play timer is up
                                     network_timer = network.timer
                                     print('network_timer:', network_timer)
-                                    
+
                                     # Turns on MODI Play buzzer
                                     network.buzzer_on()
-				    
+
                                     # Turn on the buzzer during 2 sec
                                     time.sleep(2)
-				    
+
                                     # Turns off MODI Play buzzer
                                     network.buzzer_off()
-                                    
+
                                     # Takes a picture with MODI Play camera
                                     network.take_picture()
                                 </code></pre>
@@ -820,13 +820,13 @@
                                 <div class="col-lg-11" style="overflow:auto;width:auto; padding:.2em .6em; margin: auto;">
                                 <pre style ="white-space : pre-line;"><code class = "python" style= "font-size:15px;"> import modi
                                     import time
-				    
+
                                     # To connect a bundle of the MODI modules, instantiate a MODI object
                                     bundle = modi.MODI()
-                                    
+
                                     # Stores the module use by the variable named 'button'
                                     button = bundle.buttons[0]
-                                    
+
                                     # Returns True when the button is pressed and False when the button is released
                                     button_clicked = button.clicked
                                     print('button_clicked:', button_clicked)
@@ -927,17 +927,17 @@
                                <div class="col-lg-11" style="overflow:auto;width:auto; padding:.2em .6em; margin: auto;">
                                <pre style ="white-space : pre-line;"><code class = "python" style= "font-size:15px;"> import modi
                                     import time
-									
+
                                     # To connect a bundle of the MODI modules, instantiate a MODI object
                                     bundle = modi.MODI()
-                                    
+
                                     # Stores the module use by the variable named 'dial'
                                     dial = bundle.dials[0]
-                                    
+
                                     # Returns the angle of the dial in the range of 0 to 100
                                     dial_degree = dial.degree
                                     print('dial_degree:', dial_degree)
-                                    
+
                                     # Returns the turnspeed of the dial in the range of -100 to 100
                                     dial_turnspeed = dial.turnspeed
                                     print('dial_turnspeed:', dial_turnspeed)
@@ -1033,29 +1033,29 @@
                                 <div class="col-lg-11" style="overflow:auto;width:auto; padding:.2em .6em; margin: auto;">
                                 <pre style ="white-space : pre-line;"><code class = "python" style= "font-size:15px;"> import modi
                                     import time
-									
+
                                     # To connect a bundle of the MODI modules, instantiate a MODI object
                                     bundle = modi.MODI()
-                                    
+
                                     # Stores the module use by the variable named 'env'
                                     env = bundle.envs[0]
-                                    
+
                                     # Returns the brightness value in the range of 0 to 100
                                     env_brightness = env.brightness
                                     print('env_brightness:', env_brightness)
-                                    
+
                                     # Returns the current humidity in the range of 0 to 100
                                     env_humidity = env.humidity
                                     print('env_humidity:', env_humidity)
-                                    
+
                                     # Returns the current temperature in the range of 0 to 100
                                     env_temperature = env.temperature
                                     print('env_temperature:', env_temperature)
-                                    
+
                                     # Returns the red value of the light in the range of 0 to 100
                                     env_red = env.red
                                     print('env_red:', env_red)
-									
+
                                     # Returns the green value of the light in the range of 0 to 100
                                     env_green = env.green
                                     print('env_green:', env_green)
@@ -1151,17 +1151,17 @@
                                 <div class="col-lg-11" style="overflow:auto;width:auto; padding:.2em .6em; margin: auto;">
                                 <pre style ="white-space : pre-line;"><code class = "python" style= "font-size:15px;"> import modi
                                     import time
-									
+
                                     # To connect a bundle of the MODI modules, instantiate a MODI object
                                     bundle = modi.MODI()
-                                    
+
                                     # Stores the module use by the variable named 'gyro'
                                     gyro = bundle.gyros[0]
-                                    
+
                                     # Returns the pitch value in the range of -180 to 180
                                     gyro_pitch = gyro.pitch
                                     print('gyro_pitch:', gyro_pitch)
-                                    
+
                                     # Returns the roll value in the range of -180 to 180
                                     gyro_roll = gyro.roll
                                     print('gyro_roll:', gyro_roll)
@@ -1173,7 +1173,7 @@
                                     # Returns the angular velocity with respect to x axis in the range of -100 to 100
                                     gyro_angular_vel_x = gyro.angular_vel_x
                                     print('gyro_angular_vel_x:', gyro_angular_vel_x)
-                                    
+
                                     # Returns the angular velocity with respect to y axis in the range of -100 to 100
                                     gyro_angular_vel_y = gyro.angular_vel_y
                                     print('gyro_angular_vel_y:', gyro_angular_vel_y)
@@ -1189,7 +1189,7 @@
                                     # Returns the acceleration to y axis in the range of -100 to 100
                                     gyro_acceleration_y = gyro.acceleration_y
                                     print('gyro_acceleration_y :', gyro_acceleration_y)
-                                    
+
                                     # Returns the acceleration to z axis in the range of -100 to 100
                                     gyro_acceleration_z = gyro.acceleration_z
                                     print('gyro_acceleration_z:', gyro_acceleration_z)
@@ -1283,13 +1283,13 @@
                                 <div class="col-lg-11" style="overflow:auto;width:auto; padding:.2em .6em; margin: auto;">
                                 <pre style ="white-space : pre-line;"><code class = "python" style= "font-size:15px;"> import modi
                                     import time
-				    
+
                                     # To connect a bundle of the MODI modules, instantiate a MODI object
                                     bundle = modi.MODI()
-                                    
+
                                     # Stores the module use by the variable named 'ir'
                                     ir = bundle.irs[0]
-                                    
+
                                     # Returns the proximity value in the range of 0 to 100
                                     ir_proximity = ir.proximity
                                     print('ir_proximity:', ir_proximity)
@@ -1379,13 +1379,13 @@
                                 <div class="col-lg-11" style="overflow:auto;width:auto; padding:.2em .6em; margin: auto;">
                                 <pre style ="white-space : pre-line;"><code class = "python" style= "font-size:15px;"> import modi
                                     import time
-									
+
                                     # To connect a bundle of the MODI modules, instantiate a MODI object
                                     bundle = modi.MODI()
-                                    
+
                                     # Stores the module use by the variable named 'mic'
                                     mic = bundle.mics[0]
-                                    
+
                                     # Returns the frequency of the input sound
                                     mic_frequency = mic.frequency
                                     print('mic_frequency:', mic_frequency)
@@ -1393,7 +1393,7 @@
                                     # Returns the volume of the input sound in the range of 0 to 100
                                     mic_volume = mic.volume
                                     print('mic_volume:', mic_volume)
-                                </code></pre>	
+                                </code></pre>
                                 </div>
                             </div>
                         </div>
@@ -1480,13 +1480,13 @@
                                 <div class="col-lg-11" style="overflow:auto;width:auto; padding:.2em .6em; margin: auto;">
                                 <pre style ="white-space : pre-line;"><code class = "python" style= "font-size:15px;"> import modi
                                     import time
-									
+
                                     # To connect a bundle of the MODI modules, instantiate a MODI object
                                     bundle = modi.MODI()
-                                    
+
                                     # Stores the module use by the variable named 'ultrasonic'
                                     ultrasonic = bundle.ultrasonics[0]
-									
+
                                     # Returns the distance to the object in the range of 0 to 100
                                     ultrasonic_distance = ultrasonic.distance
                                     print('ultrasonic_distance:', ultrasonic_distance)
@@ -1575,16 +1575,16 @@
                                 <div class="col-lg-11" style="overflow:auto;width:auto; padding:.2em .6em; margin: auto;">
                                 <pre style ="white-space : pre-line;"><code class = "python" style= "font-size:15px;"> import modi
                                     import time
-									
+
                                     # To connect a bundle of the MODI modules, instantiate a MODI object
                                     bundle = modi.MODI()
-                                    
+
                                     # Stores the module use by the variable named 'display'
                                     display = bundle.displays[0]
-									
+
                                     # Sets the text of the display module
                                     display.text = 'Hello MODI!'
-                                    
+
                                     """
 				                    Show a variable on position (pos_x, pos_y) of the screen.
                                     The range of pos_x, pos_y is 0 to 255.
@@ -1596,7 +1596,7 @@
                                     pos_x = 20
                                     pos_y = 30
                                     display.show_variable(0, pos_x, pos_y)
-                                    
+
                                     # Clears the screen of display module
                                     display.clear()
                                     </code></pre>
@@ -1687,28 +1687,28 @@
                                 <div class="col-lg-11" style="overflow:auto;width:auto; padding:.2em .6em; margin: auto;">
                                 <pre style ="white-space : pre-line;"><code class = "python" style= "font-size:15px;"> import modi
                                     import time
-									
+
                                     # To connect a bundle of the MODI modules, instantiate a MODI object
                                     bundle = modi.MODI()
-                                    
+
                                     # Stores the module use by the variable named 'led'
                                     led = bundle.leds[0]
-									
-                                    # Sets the red component of the light. The range of component is 0 to 100 
+
+                                    # Sets the red component of the light. The range of component is 0 to 100
                                     led.red = 100
-                                    
+
                                     # Sets the green component of the light. The range of component is 0 to 100
                                     led.green = 100
-                                    
+
                                     # Sets the blue component of the light. The range of component is 0 to 100
                                     led.blue = 100
-                                    
+
                                     # Sets the rgb components of the light. The range of components is 0 to 100
                                     led.rgb = 10, 0, 60
-                                    
+
                                     # Turns on the led to maximum brightness
                                     led.turn_on()
-                                    
+
                                     # Turns off the led
                                     led.turn_off()
                                     </code></pre>
@@ -1792,29 +1792,29 @@
                                 <div class="col-lg-11" style="overflow:auto;width:auto; padding:.2em .6em; margin: auto;">
                                 <pre style ="white-space : pre-line;"><code class = "python" style= "font-size:15px;"> import modi
                                     import time
-									
+
                                     # To connect a bundle of the MODI modules, instantiate a MODI object
                                     bundle = modi.MODI()
-                                    
+
                                     # Stores the module use by the variable named 'motor'
                                     motor = bundle.motors[0]
-                                    
+
                                     # Sets the degree of motors on both channel. The range of degree is 0 to 100
                                     motor.degree = 30, 90
 
 				                    # Sets the degree of motors on channel I. The range of degree is 0 to 100
                                     motor.first_degree = 30
-                                    
+
                                     # Sets the degree of motors on channel II. The range of degree is 0 to 100
                                     motor.second_degree = 90
-                                    
+
                                     # Sets the speed of motors on both channel. The range of speed is -100 to 100
                                     # If the current speed of the motors is -, it rotates in reverse
                                     motor.speed = 50, 100
 
 				                    # Sets the speed of motors on channel I. The range of speed is -100 to 100
                                     motor.first_speed = 50
-                                    
+
                                     # Sets the speed of motors on channel II. The range of speed is -100 to 100
                                     motor.second_speed = 10
                                 </code></pre>
@@ -1898,7 +1898,7 @@
                                 </center>
                                 <br>
                                 <!-- HTML generated using hilite.me -->
-								
+
                                 <div class="col-lg-11" style="overflow:auto;width:auto; padding:.10em .6em; margin: auto;">
                                 <pre style ="white-space : pre-line;"><code class = "python" style= "font-size:15px;"> import modi
                                     import time
@@ -2326,7 +2326,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
