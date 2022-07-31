@@ -1,5 +1,9 @@
 
+import 'src/components/Module/Module';
+
 export default function Usage() {
+
+  // const network = Module({moduleName: 'network'});
 
   return (
     <section className="page-section mb-0" id="usage">
@@ -18,7 +22,7 @@ export default function Usage() {
           <dd>
             <div style={{alignItems: 'center'}}>
               <div className="tabCon wrapper">
-                {/*<!-- Network Module -->*/}
+                {/* TODO: Currently Network Module, Use Dynamic Module */}
                 <div className="module network" data-toggle="modal" data-target="#networkmodulee">
                   <img src="assets/img/modules/network.png" alt="network" width="100" height="100" />
                 </div>
