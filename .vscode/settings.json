@@ -1,0 +1,14 @@
+{
+  "search.exclude": {
+    "dist": true,
+    ".vscode": true,
+    "package-lock.json": true,
+    "tmp": true,
+    "test": true,
+    "node_modules": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}
